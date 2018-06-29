@@ -2,10 +2,10 @@
 
 namespace App\Console;
 
+use App\Jobs\_5minute_cron;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use Carbon\Carbon;
-use App\cron;
 use App\Http\Controllers\cronCalls;
 class Kernel extends ConsoleKernel
 {
@@ -26,10 +26,12 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-
+/*
         $schedule->call(function(cronCalls $cronCall){
             $cronCall->addCurrentTime_1m();
         })->everyMinute();
+*/
+        $schedule->job(new _5minute_cron)->everyFiveMinutes();
 
     }
 

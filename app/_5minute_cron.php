@@ -3,7 +3,6 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\cron;
 
 class _5minute_cron extends Model
 {
