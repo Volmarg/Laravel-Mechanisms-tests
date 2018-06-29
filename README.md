@@ -6,12 +6,16 @@
 
 <ul>
 <li>Cron,</li>
-    <li>Calls,</li>
-    <li>Jobs,</li>
+    <ul>
+        <li>Calls,</li>
+        <li>Jobs,</li>
+    </ul>
 </ul>
 
 <h2>Used packages</h2>
-<li><a href="https://app.vagrantup.com/laravel/boxes/homestead">Vagrant homestead</a>,</li>
+<ul>
+    <li><a href="https://app.vagrantup.com/laravel/boxes/homestead">Vagrant homestead</a>,</li>
+</ul>
 
 <h2>Used tools</h2>
 <ul>
