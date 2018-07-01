@@ -26,11 +26,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-/*
+
         $schedule->call(function(cronCalls $cronCall){
             $cronCall->addCurrentTime_1m();
         })->everyMinute();
-*/
+
         $schedule->job(new _5minute_cron)->everyFiveMinutes();
 
     }

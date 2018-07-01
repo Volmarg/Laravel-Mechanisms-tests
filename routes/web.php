@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/cron-job','tester@cronTime')->name('CronJob');
+
+Route::get('/simple-mail','mailingController@simpleMail')->name('simpleMail');

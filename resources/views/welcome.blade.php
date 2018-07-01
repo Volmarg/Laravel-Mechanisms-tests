@@ -84,6 +84,7 @@
 
                 <div class="links">
                     <li><a href="{{route('CronJob')}}">Cron Job</a></li>
+                    <li><a href="{{route('simpleMail')}}">send hardcoded mail</a></li>
                 </div>
             </div>
         </div>
