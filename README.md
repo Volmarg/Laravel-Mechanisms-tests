@@ -5,11 +5,19 @@
 <h2> List of tested elements </h2>
 
 <ul>
-<li>Cron,</li>
+<li>Cron,
     <ul>
         <li>Calls,</li>
         <li>Jobs,</li>
     </ul>
+</li>    
+<li>Mails,
+    <ul>
+        <li>Standard blade tpl based,</li>
+        <li>Mail with markdown.</li>
+    </ul>
+</li>    
+<li>Session flashing</li>    
 </ul>
 
 <h2>Used packages</h2>
