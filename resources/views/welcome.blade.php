@@ -5,10 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
 
         <!-- Styles -->
         <style>
@@ -90,7 +92,23 @@
                     <li>
                         <a href="{{route('simpleMailMarkdown')}}">Simple mail Markdown</a>
                     </li>
+                    <li>
+                        <a href="{{route('messageFlash')}}">Simple message flash</a>
+                    </li>
                 </div>
+
+
+
+
+                    @if(session('redirect'))
+                    <div class="alert alert-success">
+
+                        {{session('redirect')}}
+                    </div>
+                    @endif
+
+
+
             </div>
         </div>
     </body>

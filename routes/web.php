@@ -19,3 +19,5 @@ Route::get('/cron-job','tester@cronTime')->name('CronJob');
 
 Route::get('/simple-mail','mailingController@simpleMail')->name('simpleMail');
 Route::get('/simple-mail-markdown','mailingController@simpleMailMarkdown')->name('simpleMailMarkdown');
+
+Route::get('/message-flash','sessionController@flash')->name('messageFlash');
