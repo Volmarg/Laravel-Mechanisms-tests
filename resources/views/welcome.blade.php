@@ -95,6 +95,10 @@
                     <li>
                         <a href="{{route('messageFlash')}}">Simple message flash</a>
                     </li>
+                    <li>
+                        <a href="{{route('eventTest')}}">Simple message flash</a>
+                    </li>
+
                 </div>
 
 
