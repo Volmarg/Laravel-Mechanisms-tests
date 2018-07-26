@@ -1,0 +1,21 @@
+- class for fetching urls content via curl
+-- breaking content apart
+- class for DOM
+-- searching for email on page
+-- marking keywords in website content + presenting it to user so user can decide if it should be on the sending list,
+- class for sorting wheather it can be used for email sending or not
+- class for email sending
+- class for creating output file with links that should be removed after email sending is over
+
+
+------ Middlewares
+- if page has email -> process to sorting, else skip
+- if page has specified keywords -> skip mail sending and present this pages on list + generate file
+
+------ Events
+
+
+------ Flashes
+
+
+------ Views

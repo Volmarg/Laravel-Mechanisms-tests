@@ -80,10 +80,10 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel - vargrant
+                <div class="title m-b-md" style="font-size:50px;">
+                    Laravel - vargrant & features tests
                 </div>
-
+                <h2>Simple features tests</h2>
                 <div class="links">
                     <li><a href="{{route('CronJob')}}">Cron Job</a></li>
                     <li>
@@ -96,12 +96,17 @@
                         <a href="{{route('messageFlash')}}">Simple message flash</a>
                     </li>
                     <li>
-                        <a href="{{route('eventTest')}}">Simple message flash</a>
+                        <a href="{{route('eventTest')}}">Event test</a>
+                    </li>
+                    <li>
+                        <a href="{{route('components_slots')}}">Components and slots</a>
                     </li>
 
                 </div>
-
-
+             <h2>Tool created on summary</h2>
+                <div class="links">
+                    <li><a href="{{route('CronJob')}}">Indeed website scrapper</a></li>
+                </div>
 
 
                     @if(session('redirect'))

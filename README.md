@@ -17,7 +17,14 @@
         <li>Mail with markdown.</li>
     </ul>
 </li>    
-<li>Session flashing</li>    
+<li>Session flashing,</li>
+<li>Events dispatching.</li>
+<li>Blade
+        <ul>
+            <li>Components,</li>
+            <li>Slots,</li>
+        </ul>
+</li>
 </ul>
 
 <h2>Used packages</h2>
