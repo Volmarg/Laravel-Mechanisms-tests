@@ -12,6 +12,8 @@
     <div class="content">
         @yield('content')
     </div>
-
+    <footer>
+    @yield('footer_scripts')
+    </footer>
 </body>
 </html>

@@ -101,11 +101,13 @@
                     <li>
                         <a href="{{route('components_slots')}}">Components and slots</a>
                     </li>
-
+                    <li>
+                        <a href="{{route('remember_cache')}}">Caching database</a>
+                    </li>
                 </div>
              <h2>Tool created on summary</h2>
                 <div class="links">
-                    <li><a href="{{route('CronJob')}}">Indeed website scrapper</a></li>
+
                 </div>
 
 
@@ -121,4 +123,8 @@
             </div>
         </div>
     </body>
+
+<footer>
+    @yield('footer_scripts')
+</footer>
 </html>

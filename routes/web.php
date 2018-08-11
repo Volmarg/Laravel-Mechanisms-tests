@@ -22,5 +22,6 @@ Route::get('/simple-mail-markdown','mailingController@simpleMailMarkdown')->name
 Route::get('/message-flash','sessionController@flash')->name('messageFlash');
 Route::get('/event-test','eventsController@simpleTest')->name('eventTest');
 Route::get('/blade-markdown','viewController@componentsNslots')->name('components_slots');
+Route::Get('/cache-database','dbCache@rememberBased')->name('remember_cache');
 
 #Scrapper routes

@@ -11,6 +11,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+
+        $amount=10;
+
+        for($x=0;$x<=$amount;$x++){
+            DB::table('data_caching_tests')->insert([
+                'name'=>str_random(10),
+            ]);
+        }
+
     }
 }

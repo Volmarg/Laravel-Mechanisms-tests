@@ -7,5 +7,10 @@
 
 @yield('content');
 
+
+<footer>
+    @yield('footer_scripts')
+</footer>
+
 </body>
 </html>
