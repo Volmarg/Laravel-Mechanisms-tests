@@ -5,7 +5,7 @@
 
 @yield('css')
 
-@yield('content');
+@yield('content')
 
 
 <footer>

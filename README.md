@@ -25,6 +25,11 @@
             <li>Slots,</li>
         </ul>
 </li>
+<li>Caching
+        <ul>
+            <li>File based cache Cache::remember/keys usage,</li>
+        </ul>
+</li>
 </ul>
 
 <h2>Used packages</h2>

@@ -13,8 +13,8 @@ class data_caching_test extends Model
 
     public function returnAllRecords(){
 
-        $value=Cache::remember('name',2,function (){
-            return DB::table('data_caching_tests')->get();
+        $value=Cache::remember('checking_key_usage',1,function (){
+            return DB::table('data_caching_tests')->select('name')->get();
         });
 
         return $value;

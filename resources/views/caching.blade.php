@@ -1,5 +1,9 @@
 @extends('extendable')
 
 @section('footer_scripts')
-test2
+
+    @foreach($eloquent_return as $singleRow)
+        {{$singleRow->name}}<br/>
+    @endforeach
+
 @endsection
